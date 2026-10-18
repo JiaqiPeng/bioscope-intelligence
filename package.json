@@ -1,0 +1,8 @@
+{
+  "name": "bioscope-intelligence",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BioScope Intelligence static editorial website",
+  "engines": { "node": ">=22" },
+  "scripts": { "build": "node scripts/build.cjs", "check": "node scripts/build.cjs" }
+}

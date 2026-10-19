@@ -10,13 +10,13 @@ The house style pairs Newsreader headlines and reading text with Manrope navigat
 - Charcoal: `#273544` — reading text.
 - White — the main canvas.
 
-## Fieldnotes illustrations
+## Editorial photography and logo
 
-Seven original SVG illustrations replace photographic article covers. They share a pale canvas, blue line work, a circular scientific frame, small figure labels and generous negative space. Subjects must relate directly to the reporting. The illustrations are schematic editorial visuals, never clinical evidence or accurate anatomical references.
+Current article covers use topic-specific editorial photo-style images with tight framing, navy and steel-blue tones, controlled highlights and no prominent faces. Generated images are disclosed in the article caption. Each article has a full-size WebP and thumbnail assigned in site/editorial-images.js. Homepage image boxes retain their previous dimensions; article covers are 300px tall on desktop and 190px on mobile.
 
-Run `node scripts/build-illustrations.cjs` to regenerate the vector masters. Edit the corresponding subject drawing in that script; do not introduce fake photographic imagery or decorative sci-fi effects. Add future assignments in `site/editorial-images.js`. The same vector master is used for hero and thumbnail displays, with `object-fit: contain` to preserve the illustration. Each assignment requires descriptive alt text and the standard schematic caption.
+The supplied approved BioScope logo is used without recoloring or distortion. A trimmed PNG removes only its empty border to increase its visible size within the existing masthead and footer placement. The original file remains alongside it. The footer supplies a white backing for contrast.
 
-Previous WebP assets remain available for history, but no current story renders them. Article text, source citations, publication dates, company data, deal records and archive behavior are independent of this visual layer.
+The previous SVG artwork and its generator are retained for history but are not used by current article covers. Article text, source citations, dates, company information and archive behavior are independent of the image layer.
 
 ## Implementation
 

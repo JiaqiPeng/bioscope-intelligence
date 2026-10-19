@@ -4,7 +4,7 @@ This is the standalone publication root. Upload this folder's contents to a new 
 
 ## Framework and build
 
-Plain HTML, CSS and vanilla JavaScript. No React, Vite, server, database or runtime API credentials. `site/` contains the complete existing application and editorial SVG illustrations and retained WebP assets. Node 22+ is used only for a dependency-free validation/packaging step:
+Plain HTML, CSS and vanilla JavaScript. No React, Vite, server, database or runtime API credentials. `site/` contains the complete existing application and editorial photo assets, the supplied logo and retained illustrations. Node 22+ is used only for a dependency-free validation/packaging step:
 
 ```sh
 npm run build
@@ -30,7 +30,7 @@ Hash routes work at both `https://OWNER.github.io/` and `https://OWNER.github.io
 
 ## Preserved content
 
-Seven articles across the October 16–18 editions, all 20 major-company profiles plus four existing specialist profiles, seven deal records, the Reporting Archive's seven-day behavior, tags, search, related reporting, image captions and article dates are preserved. Analysis remains intentionally empty. The current article covers use original SVG illustrations under `site/images/`. The repeatable house style and regeneration command are documented in `VISUAL-IDENTITY.md`; illustration generation is not required during deployment.
+Seven articles across the October 16–18 editions, all 20 major-company profiles plus four existing specialist profiles, seven deal records, the Reporting Archive's seven-day behavior, tags, search, related reporting, image captions and article dates are preserved. Analysis remains intentionally empty. Current article covers use editorial WebP images under `site/images/`; the supplied logo uses PNG. The image direction is documented in `VISUAL-IDENTITY.md`. Image generation is not required during deployment.
 
 ## Publication hygiene
 

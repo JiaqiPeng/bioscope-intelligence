@@ -23,3 +23,14 @@ footer{background:var(--navy);border-top:4px solid var(--blue);padding-top:45px;
 
 /* Optical centre of the BioScope mark. */
 .brand:after{left:12px;top:15px;width:8px;height:8px;transform:none;border-radius:50%}footer .brand:after{top:15px}@media(max-width:620px){.brand:after{left:9px;top:11px;width:8px;height:8px}footer .brand:after{top:11px}}
+
+/* Approved photography and supplied logo; homepage geometry is retained. */
+.approved-brand .wordmark,.approved-brand .brand-sub{visibility:hidden}
+.approved-brand:before,.approved-brand:after{display:none}
+.approved-logo{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}
+footer .approved-logo{background:#fff}
+.editorial-image,.article-figure .editorial-image{object-fit:cover;object-position:center}
+
+/* Compact article covers keep the reporting within reach. */
+.article-figure .editorial-image{height:300px;aspect-ratio:auto;object-fit:cover}
+@media(max-width:620px){.article-figure .editorial-image{height:190px}}

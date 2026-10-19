@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc"><title id="title">BioScope — cellular targets</title><desc id="desc">Original schematic editorial illustration; not clinical evidence or an anatomical reference.</desc><rect width="1000" height="700" fill="#f4f8fe"/><g fill="none" stroke="#d3e1f4" stroke-width="1"><circle cx="500" cy="365" r="241"/><path d="M500 104V128M500 602V626M239 365H263M737 365H761M281 146h438M281 584h438"/><path d="M56 85V56H85M915 56H944V85M56 615V644H85M915 644H944V615"/></g><g fill="none" stroke="#23558b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M360 260C416 205 499 205 549 250C606 240 655 281 652 338C706 376 696 454 646 482C625 546 546 569 492 537C422 563 355 517 352 457C296 420 304 346 348 316Z" fill="#e5eefb"/>
+ <path d="M370 270C424 223 493 221 541 265C596 250 638 289 638 342C690 381 677 445 631 471C615 530 548 548 495 522C431 548 370 505 368 449C317 413 324 352 362 324Z" stroke-dasharray="3 9" stroke-width="2"/>
+ <ellipse cx="493" cy="382" rx="68" ry="82" fill="#cfdef5"/>
+ <path d="M471 316C441 343 466 365 491 355S537 367 513 390S470 401 480 433" stroke-width="3"/>
+ <path d="M385 358q26 -22 43 6m-42 69q22 17 39 -8m127 -109q17 -14 33 6m-35 118q22 18 42 -5" stroke-width="3"/>
+ <circle cx="407" cy="296" r="8" fill="#f8fbff"/><circle cx="581" cy="381" r="8" fill="#f8fbff"/><circle cx="450" cy="479" r="8" fill="#f8fbff"/><circle cx="598" cy="469" r="8" fill="#f8fbff"/><circle cx="401" cy="397" r="8" fill="#f8fbff"/>
+ <g stroke-width="6"><path d="M665 236l-28 28 29 30m-29 -30l-39 -38" /><path d="M598 226l-5 -30m5 30l-30 3" /></g>
+ <g fill="#2463b5" stroke="none"><circle cx="681" cy="221" r="9" /><circle cx="699" cy="202" r="6" /></g>
+ <path d="M645 270L730 270L775 225" stroke-width="1.5"/><circle cx="782" cy="218" r="5" fill="#2463b5"/>
+ <path d="M491 382L700 382L763 420" stroke-width="1.5"/><circle cx="770" cy="425" r="5" fill="#2463b5"/>
+ </g><g font-family="Arial,sans-serif" fill="#315f96" font-size="11" letter-spacing="2"><text x="58" y="94">BIOSCOPE / FIELDNOTES</text><text x="58" y="619">CELLULAR TARGETS</text><text x="942" y="619" text-anchor="end">FIG. 01</text></g><path d="M58 108h28" stroke="#2463b5" stroke-width="3"/></svg>

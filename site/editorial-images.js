@@ -1,17 +1,12 @@
-// Explicit, story-specific images shared by every article rendering surface.
+// BioScope illustration identity: one vector master shared across all surfaces.
+// Subjects stay tied to the reporting; diagrams are editorial, not clinical evidence.
 const editorialImageAssignments={
- 'art002g1-us-trial-clearance':['gene-editing','A thermal cycler, capped sample tubes and a micropipette on a molecular-biology laboratory bench.'],
- 'enspryng-thyroid-eye':['eye-care','A slit-lamp microscope and empty examination chair in a daylight-lit eye clinic.'],
- 'fda-rare-disease-framework':['regulatory','An open document folder, papers and navy binder on an institutional office desk.'],
- 'glioma-local-antibody-toxin':['brain-anatomy','An ivory educational brain model showing the cerebral hemisphere, cerebellum and brainstem on a small stand.'],
- 'digital-glp1-women-study':['weight-management','A body-weight scale and measuring tape in the foreground of a clinic, with a tablet on a bench behind them.']
+ 'abbvie-early-oncology-esmo':['oncology','A blue scientific line illustration of a cell and a targeted antibody–drug conjugate.'],
+ 'ai-scribes-primary-care-study':['documentation','A blue line illustration of a clinical chart, microphone and voice waveform.'],
+ 'art002g1-us-trial-clearance':['genetics','A blue DNA schematic with a highlighted segment representing gene editing.'],
+ 'enspryng-thyroid-eye':['eye','A blue scientific line illustration of an eye with detailed iris structure.'],
+ 'fda-rare-disease-framework':['regulation','A blue line illustration of a document and an evidence-review check mark.'],
+ 'glioma-local-antibody-toxin':['brain','A blue schematic illustration of a brain with a highlighted treatment region.'],
+ 'digital-glp1-women-study':['weight','A blue line illustration of a weight scale, measuring tape and digital-care device.']
 };
-// Editorial briefs are stored with the image, not displayed as page copy.
-const editorialImageBriefs={
- 'art002g1-us-trial-clearance':{subject:'Gene editing for cholesterol reduction',visual:'Molecular-biology equipment and PCR samples',rationale:'The molecular-biology workbench represents the genetic technology, rather than a generic corporate setting.',priority:1},
- 'enspryng-thyroid-eye':{subject:'Treatment for thyroid eye disease',visual:'Ophthalmology slit-lamp examination equipment',rationale:'The disease area leads the visual choice even though the news concerns a regulatory approval.',priority:1},
- 'fda-rare-disease-framework':{subject:'Regulatory evidence standards and consultation',visual:'Institutional document review',rationale:'Documents fit this process-focused policy story; they are not the default for individual drug approvals.',priority:1},
- 'glioma-local-antibody-toxin':{subject:'Locally delivered treatment for brain cancer',visual:'Educational brain anatomy model',rationale:'The affected organ is immediately recognizable without inventing patient scans or depicting surgery.',priority:2},
- 'digital-glp1-women-study':{subject:'Digitally supported weight-management care',visual:'Body-weight scale and measuring tape as the focal point, with a secondary tablet',rationale:'Weight measurement leads the composition; the background tablet provides the secondary digital-care context.',priority:1}
-};
-for(const article of articles){const assignment=editorialImageAssignments[article.id];if(assignment){const [asset,alt]=assignment;article.image={src:`images/editorial-${asset}.webp`,thumbnail:`images/editorial-${asset}-thumb.webp`,alt,caption:'AI-generated editorial image · Illustrative setting, not a photograph of the reported study, product or facility.',width:1440,height:960,style:'topic-first-editorial-v2',generated:true,brief:editorialImageBriefs[article.id]};}}
+for(const article of articles){const assignment=editorialImageAssignments[article.id];if(assignment){const [asset,alt]=assignment;article.image={src:`images/bioscope-${asset}.svg`,thumbnail:`images/bioscope-${asset}.svg`,alt,caption:'BioScope Fieldnotes · Original editorial illustration. Schematic; not a clinical image or anatomical reference.',width:1000,height:700,style:'bioscope-fieldnotes-v1',generated:false};}}

@@ -1,6 +1,6 @@
 # BioScope Intelligence — GitHub publication copy
 
-This is the standalone publication root. Upload this folder's contents to a new GitHub repository, not its parent Sites checkout or Git history. A local Git repository has been initialized on main. Files are staged for review; no commit, push or publication has been performed.
+This is the standalone publication root. Upload this folder's contents to a new GitHub repository, not its parent Sites checkout or Git history. A local Git repository has been initialized on main. The publication repository is https://github.com/JiaqiPeng/bioscope-intelligence and the public site is https://jiaqipeng.github.io/bioscope-intelligence/.
 
 ## Framework and build
 
@@ -20,7 +20,7 @@ No npm install is required. Production output is `_site/`; do not commit it. The
 2. In repository Settings → Pages → Build and deployment, select **GitHub Actions**.
 3. Open Actions → Deploy BioScope to GitHub Pages → Run workflow.
 
-The workflow is manual-only so merely uploading the project does not deploy it. It needs no personal access token or custom secret: GitHub supplies job-scoped permissions. No push or deployment has been performed yet. Repository access and Pages availability must be configured by the owner. GitHub Pages access is separate from the current owner-private Sites deployment.
+The workflow is manual-only so merely uploading the project does not deploy it. It needs no personal access token or custom secret: GitHub supplies job-scoped permissions. GitHub Pages is configured to use this workflow. Publish reviewed updates by pushing main and dispatching the workflow.
 
 Configuration follows [GitHub's custom Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
@@ -30,7 +30,7 @@ Hash routes work at both `https://OWNER.github.io/` and `https://OWNER.github.io
 
 ## Preserved content
 
-Five current articles, all 20 major-company profiles plus four existing specialist profiles, seven deal records, the Reporting Archive's seven-day behavior, tags, search, related reporting, image captions and article dates are preserved. Analysis remains intentionally empty. All generated images and thumbnails are committed under `site/images/`; image generation is not part of the deployment build.
+Seven articles across the October 16–18 editions, all 20 major-company profiles plus four existing specialist profiles, seven deal records, the Reporting Archive's seven-day behavior, tags, search, related reporting, image captions and article dates are preserved. Analysis remains intentionally empty. All generated images and thumbnails are committed under `site/images/`; image generation is not part of the deployment build.
 
 ## Publication hygiene
 

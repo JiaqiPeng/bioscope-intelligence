@@ -9,7 +9,7 @@ const scripts=[...html.matchAll(/<script src="([^"]+)"/g)].map(m=>m[1]);
 const ctx=vm.createContext({Intl,Date});for(const f of scripts.filter(f=>f!=='edition-app.js'))vm.runInContext(fs.readFileSync(path.join(src,f),'utf8'),ctx);
 const data=vm.runInContext('({articles,companies,deals,sources,majorCompanyOrder})',ctx);
 for(const a of data.articles){for(const key of ['src','thumbnail']){assert(a.image[key].startsWith('images/'));assert(fs.existsSync(path.join(src,a.image[key])),'Missing article image');}for(const id of a.companies)assert(data.companies.some(c=>c.id===id));for(const id of a.sources)assert(data.sources[id]);}
-assert.equal(data.majorCompanyOrder.length,20);assert.equal(data.companies.length,24);assert.equal(data.articles.length,5);assert.equal(data.deals.length,7);
+assert.equal(data.majorCompanyOrder.length,20);assert.equal(data.companies.length,24);assert.ok(data.articles.length>=5);assert.equal(new Set(data.articles.map(a=>a.id)).size,data.articles.length,'Duplicate article IDs');assert.equal(data.deals.length,7);
 assert.equal(vm.runInContext("isArchived({date:'2026-10-17'},'2026-10-24')",ctx),false);assert.equal(vm.runInContext("isArchived({date:'2026-10-17'},'2026-10-25')",ctx),true);
 // Only this fixed build directory can be replaced.
 assert.equal(path.dirname(out),root);fs.rmSync(out,{recursive:true,force:true});fs.cpSync(src,out,{recursive:true});fs.writeFileSync(path.join(out,'.nojekyll'),'');

@@ -30,7 +30,7 @@ Hash routes work at both `https://OWNER.github.io/` and `https://OWNER.github.io
 
 ## Preserved content
 
-Seven articles across the October 16–18 editions, all 20 major-company profiles plus four existing specialist profiles, seven deal records, the Reporting Archive's seven-day behavior, tags, search, related reporting, image captions and article dates are preserved. Analysis remains intentionally empty. Current article covers use editorial WebP images under `site/images/`; the supplied logo uses PNG. The image direction is documented in `VISUAL-IDENTITY.md`. Image generation is not required during deployment.
+Eleven articles across the October 16–19 editions, all 20 major-company profiles plus four existing specialist profiles, seven deal records, the Reporting Archive's seven-day behavior, tags, search, related reporting, image captions and article dates are preserved. Analysis remains intentionally empty. Current article covers use editorial WebP images under `site/images/`; the supplied logo uses PNG. The image direction is documented in `VISUAL-IDENTITY.md`. Image generation is not required during deployment.
 
 ## Publication hygiene
 

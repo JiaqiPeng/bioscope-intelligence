@@ -29,7 +29,7 @@ const october19Stories=[{
  ],
  photo:'blood',alt:'Capped blood sample tubes held in a hematology laboratory analyzer rack.'
 },{
- id:'merck-kgaa-silence-acquisition',type:'News',category:'Deals & strategy',region:'Europe',tech:'RNA therapeutics',companies:[],deals:[],
+ id:'merck-kgaa-silence-acquisition',type:'News',category:'Deals & strategy',region:'Europe',tech:'RNA therapeutics',companies:[],deals:['merck-kgaa-silence-2026'],
  title:'Merck KGaA agrees to acquire Silence in a $1.3 billion equity deal',
  deck:'The proposed purchase adds RNA-silencing technology and an experimental treatment for a rare blood cancer.',
  sources:['silenceMerckOct19'],
@@ -53,6 +53,36 @@ const october19Stories=[{
  ],
  photo:'retina',alt:'An ophthalmic imaging instrument beside a monitor displaying a retinal cross-section.'
 }];
+sources.hansohRocheOct19={title:'Hansoh announces ADC collaboration and license agreement with Roche',publisher:'Hansoh Pharmaceutical',date:'2026-10-19',kind:'Primary company transaction announcement',url:'https://www.hspharm.com/news/news-detail-513518.htm',accessed:'2026-10-19'};
+sources.metisLillyOct19={title:'METiS TechBio announces tissue-specific LNP delivery collaboration with Lilly',publisher:'METiS TechBio',date:'2026-10-19',kind:'Primary company transaction announcement',url:'https://metistechbio.com/en/qyxw/253.html',accessed:'2026-10-19'};
+october19Stories.unshift({
+ id:'roche-hansoh-adc-portfolio',type:'News',category:'Deals & strategy',region:'China',tech:'ADC',tags:['China','Oncology'],companies:['roche'],deals:['roche-hansoh-2026'],
+ title:'Roche commits $400 million upfront to a broad Hansoh cancer-drug partnership',
+ deck:'More than $15 billion in possible milestones makes this a major China-to-global licensing agreement, not a $15 billion cash purchase.',
+ sources:['hansohRocheOct19'],
+ paragraphs:[
+ ['Roche and China’s Hansoh announced an ADC partnership on October 19 covering two preclinical programmes and additional Roche-selected targets. Hansoh will lead development through global phase 1a trials; Roche will take further development outside mainland China, Hong Kong, Macau and Taiwan. Hansoh retains those territories.',['hansohRocheOct19']],
+ ['Hansoh receives $400 million upfront and $110 million on the first anniversary, with more than $15 billion in potential development, regulatory and commercial milestones, plus royalties. Milestones depend on future progress. The agreement also offers Hansoh an option to help develop two programmes for additional US commercial upside.',['hansohRocheOct19']],
+ ['ADCs combine an antibody with a drug payload. For readers following China’s biotechnology industry, the significance is both scientific and commercial: an early research platform can enter global development through a major partner. Large conditional payments signal ambition, but do not demonstrate that the resulting medicines will work or reach approval.',[]]
+ ],
+ photo:'hansoh',alt:'A chromatography sample vial beneath an autosampler needle in a pharmaceutical analytical laboratory.'
+},{
+ id:'lilly-metis-delivery-collaboration',type:'News',category:'Deals & strategy',region:'China',tech:'Drug delivery',tags:['China','LNP'],companies:['lilly'],deals:['lilly-metis-2026'],
+ title:'Lilly partners with METiS on targeted delivery, with up to $1.1 billion in milestones',
+ deck:'The collaboration seeks better tissue targeting for lipid nanoparticles; the initial payment is much smaller than the headline figure.',
+ sources:['metisLillyOct19'],
+ paragraphs:[
+ ['METiS TechBio announced a Lilly collaboration on October 19 to discover tissue-specific lipid nanoparticle delivery systems. Its AiLNP platform uses AI to design and optimise lipids; Lilly contributes drug-development and commercial expertise. The goal is to improve where therapeutic payloads travel in the body.',['metisLillyOct19']],
+ ['METiS disclosed an upfront payment in the low double-digit millions of dollars, without an exact figure, plus up to approximately $1.1 billion in development, regulatory and commercial milestones. Single-digit tiered royalties are additional. The billion-dollar figure therefore describes potential future milestones, not money paid at signing.',['metisLillyOct19']],
+ ['Delivery can determine whether a promising medicine reaches its intended tissue. This makes formulation research strategically important even before a particular product succeeds in patients. The collaboration is a research commitment, not clinical proof that AI-designed delivery systems outperform existing approaches. For U.S.–China intelligence, it is a partnership to track through technical and clinical results as well as financial terms.',[]]
+ ],
+ photo:'metis',alt:'A microfluidic mixing chip and tubing on a pharmaceutical formulation instrument.'
+});
+deals.unshift(
+ {id:'merck-kgaa-silence-2026',date:'2026-10-19',reviewed:'2026-10-19',year:'2026',company:null,companyName:'Merck KGaA',companies:[],partner:'Silence Therapeutics',asset:'Silence / divesiran and siRNA platform',tech:'RNA',area:'Rare disease',stage:'Clinical-stage portfolio',upfront:1300,value:1300,country:'Europe',type:'Acquisition',crossChina:false,sources:['silenceMerckOct19'],status:'Agreed; closing subject to approvals',notes:'Approximate $1.3bn cash equity value; $1.1bn enterprise value. Expected completion Q1 2027, subject to approvals and other conditions. German Merck KGaA is distinct from Merck & Co.; no US Merck profile link is implied.'},
+ {id:'roche-hansoh-2026',date:'2026-10-19',reviewed:'2026-10-19',year:'2026',company:'roche',companies:['roche'],partner:'Hansoh Pharmaceutical',asset:'ADC portfolio / Hansoh platform',tech:'ADC',area:'Oncology',stage:'Preclinical and discovery portfolio',upfront:400,value:null,valueDisplay:'> $15bn milestones + $510m',country:'China',type:'Licensing',crossChina:true,sources:['hansohRocheOct19'],status:'Collaboration announced',notes:'China-origin portfolio; Swiss partner Roche. $400m initial payment, $110m at the first anniversary and more than $15bn conditional milestones; royalties additional. Hansoh retains Greater China rights. An exact maximum is not disclosed, so this record is excluded from the numeric sum.'},
+ {id:'lilly-metis-2026',date:'2026-10-19',reviewed:'2026-10-19',year:'2026',company:'lilly',companies:['lilly'],partner:'METiS TechBio',asset:'AiLNP / tissue-specific lipid nanoparticle delivery',tech:'Other',area:'Other',stage:'Research and discovery',upfront:null,upfrontDisplay:'Low double-digit $m',value:null,valueDisplay:'~$1.1bn milestones + upfront',country:'China',type:'Partnership',crossChina:true,sources:['metisLillyOct19'],status:'Research collaboration announced',notes:'China-to-US drug-delivery collaboration. Exact initial payment and total ceiling undisclosed; milestone eligibility is about $1.1bn, with royalties additional. Excluded from the numeric sum. No specific indication or approved product is identified.'}
+);
 october19Stories.forEach(a=>{
  Object.assign(a,{date:'2026-10-19',editionDate:'2026-10-19',sourceCutoff:'2026-10-19',eventDate:'2026-10-19'});
  a.minutes=Math.ceil(a.paragraphs.reduce((n,p)=>n+p[0].split(/\s+/).length,0)/200);
@@ -61,6 +91,7 @@ october19Stories.forEach(a=>{
 });
 articles.unshift(...october19Stories);
 signals.splice(0,signals.length,
+ {title:'China-to-global dealmaking',text:'Roche–Hansoh pairs early research with global development; contingent billions are not upfront cash.',article:'roche-hansoh-adc-portfolio'},
+ {title:'Delivery as a strategic asset',text:'Lilly–METiS targets the challenge of reaching the right tissues.',article:'lilly-metis-delivery-collaboration'},
  {title:'A selected cancer population',text:'Jemperli’s new approval depends on molecular testing and careful surveillance.',article:'jemperli-rectal-cancer-approval'},
- {title:'From biology to daily life',text:'APOLLO links lower PPIX with improved light tolerance.',article:'disc-bitopertin-apollo-results'},
- {title:'Durability needs evidence',text:'Less frequent treatment must still deliver convincing vision outcomes.',article:'eyepoint-lucia-retinal-setback'});
+);

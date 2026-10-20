@@ -2,8 +2,6 @@
 sources.fdaJemperliOct19={title:'FDA grants accelerated approval to dostarlimab for locally advanced rectal cancer',publisher:'US Food and Drug Administration',date:'2026-10-19',kind:'Regulatory approval announcement',url:'https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dostarlimab-locally-advanced-rectal-cancer',accessed:'2026-10-19'};
 sources.discApolloOct19={title:'Disc Medicine announces success on primary and secondary endpoints in APOLLO',publisher:'Disc Medicine / SEC Exhibit 99.1',date:'2026-10-19',kind:'Sponsor-reported phase 3 topline results; SEC-filed company announcement',url:'https://www.sec.gov/Archives/edgar/data/1816736/000119312526424649/d156263dex991.htm',accessed:'2026-10-19'};
 sources.silenceMerckOct19={title:'Silence Therapeutics enters agreement to be acquired by Merck KGaA, Darmstadt, Germany',publisher:'Silence Therapeutics',date:'2026-10-19',kind:'Company transaction announcement; acquisition not yet completed',url:'https://silence-therapeutics.com/investors/press-releases/press-releases-details/2026/Silence-Therapeutics-Enters-into-Agreement-to-be-Acquired-by-Merck-KGaA-Darmstadt-Germany/default.aspx',accessed:'2026-10-19'};
-sources.eyepointLuciaOct19={title:'EyePoint announces topline results from LUCIA',publisher:'EyePoint',date:'2026-10-19',kind:'Sponsor-reported phase 3 topline results',url:'https://investors.eyepoint.bio/news-releases/news-release-details/eyepoint-announces-topline-results-lucia-second-pivotal-phase-3',accessed:'2026-10-19'};
-sources.eyepointStrategyOct19={title:'EyePoint announces strategic prioritization',publisher:'EyePoint',date:'2026-10-19',kind:'Company restructuring and development-plan announcement',url:'https://investors.eyepoint.bio/news-releases/news-release-details/eyepoint-announces-strategic-prioritization',accessed:'2026-10-19'};
 const october19Stories=[{
  id:'jemperli-rectal-cancer-approval',type:'News',category:'Regulation',region:'United States',tech:'Immunotherapy',companies:['gsk'],deals:[],
  title:'FDA clears Jemperli for a genetically defined group of rectal cancers',
@@ -40,18 +38,7 @@ const october19Stories=[{
  ['For the industry, the transaction highlights continued interest in specialised drug platforms and rare-disease programmes. Buying a platform, however, does not remove the clinical risk: the value of its medicines will still depend on development results and regulatory decisions.',[]]
  ],
  photo:'rna',alt:'Automated pipette tips positioned over an assay plate in a molecular research laboratory.'
-},{
- id:'eyepoint-lucia-retinal-setback',type:'News',category:'Clinical development',region:'United States',tech:'Drug delivery',companies:[],deals:[],
- title:'EyePoint pivots after its long-acting retinal treatment misses a pivotal goal',
- deck:'The LUCIA setback is followed by planned workforce cuts and a focus on diabetic macular edema.',
- sources:['eyepointLuciaOct19','eyepointStrategyOct19'],
- paragraphs:[
- ['EyePoint said on October 19 that DURAVYU failed the main goal of LUCIA, its 475-patient phase 3 study in wet age-related macular degeneration. The experimental vorolanib insert did not demonstrate the required statistical non-inferiority to aflibercept on vision outcomes: the study did not establish that it preserved vision within the trial’s accepted margin of the comparator.',['eyepointLuciaOct19']],
- ['The company reported fewer supplemental treatments and a favourable safety profile, but those findings do not reverse the primary result. Its other pivotal wet-AMD trial, LUGANO, also missed the primary endpoint in the full dataset. Both studies compared DURAVYU every 24 weeks with aflibercept every eight weeks, allowing supplemental treatment when required.',['eyepointLuciaOct19']],
- ['In a separate announcement, EyePoint outlined a reduction of approximately 53% of its workforce and plans to end the wet-AMD trials before completing their second year. Resources will concentrate on diabetic macular edema, swelling in the retina associated with diabetes. The company expects results from its two phase 3 studies in that condition in late 2027. DURAVYU remains investigational.',['eyepointStrategyOct19']],
- ['The setback illustrates an important distinction for longer-lasting medicines: reducing treatment frequency is valuable only alongside convincing evidence that the clinical outcome is maintained. The separate diabetes-related programme must establish its own benefit.',[]]
- ],
- photo:'retina',alt:'An ophthalmic imaging instrument beside a monitor displaying a retinal cross-section.'
+
 }];
 sources.hansohRocheOct19={title:'Hansoh announces ADC collaboration and license agreement with Roche',publisher:'Hansoh Pharmaceutical',date:'2026-10-19',kind:'Primary company transaction announcement',url:'https://www.hspharm.com/news/news-detail-513518.htm',accessed:'2026-10-19'};
 sources.metisLillyOct19={title:'METiS TechBio announces tissue-specific LNP delivery collaboration with Lilly',publisher:'METiS TechBio',date:'2026-10-19',kind:'Primary company transaction announcement',url:'https://metistechbio.com/en/qyxw/253.html',accessed:'2026-10-19'};

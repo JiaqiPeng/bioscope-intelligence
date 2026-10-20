@@ -7,7 +7,7 @@ Before selecting a daily edition:
 - Run separate searches for major licensing/acquisition/platform deals and China-to-global partnerships. Check both counterparties' releases and exchange filings when available.
 - Compare candidates across approvals, pivotal trials, deals and policy before choosing the leading stories. Do not stop researching after finding four plausible stories.
 - Keep a concise candidate/source/selection record outside the deployable site. Explicitly account for major deal headlines in the selection.
-- Normally select 1–4 consequential stories. The user explicitly requested the two missing October 19 deals in addition to the four published stories; retain that corrected six-story edition. Do not silently delete published coverage to meet a quota.
+- Normally select 1–4 consequential stories. The user explicitly requested the two missing October 19 deals in addition to the four published stories; the user subsequently removed the EyePoint story, leaving five October 19 stories. Do not silently delete published coverage to meet a quota.
 
 For every published transaction story, add or update its structured Deal Tracker record and connect article ↔ deal ↔ existing company profiles. Do not invent company profiles merely to make a link work. Classify China-origin partnerships explicitly so China intelligence can discover them through deal links, not just the headquarters of an existing company profile. Distinguish Swiss/European partners from US partners.
 

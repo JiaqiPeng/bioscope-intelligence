@@ -9,3 +9,7 @@ const editorialImageAssignments={
  'digital-glp1-women-study':['weight','A body-weight scale and measuring tape with a tablet in a clinical setting.']
 };
 for(const article of articles){const assignment=editorialImageAssignments[article.id];if(assignment){const [asset,alt]=assignment;article.image={src:`images/editorial-photo-${asset}.webp`,thumbnail:`images/editorial-photo-${asset}-thumb.webp`,alt,caption:'AI-generated editorial image · Illustrative setting, not a photograph of the reported study, product or facility.',width:1500,height:1050,style:'editorial-photography-v3',generated:true};}}
+
+// User-selected company cover photographs.
+Object.assign(articles.find(a=>a.id==="roche-hansoh-adc-portfolio"),{image:{"objectPosition":"center 80%","src":"images/roche-hansoh-supplied.webp","thumbnail":"images/roche-hansoh-supplied-thumb.webp","alt":"A Roche sign outside a glass-fronted building.","caption":"User-supplied cover image · Company signage; not a photograph documenting the announced transaction.","width":1500,"height":1050}});
+Object.assign(articles.find(a=>a.id==="lilly-metis-delivery-collaboration"),{image:{"src":"images/lilly-metis-supplied.webp","thumbnail":"images/lilly-metis-supplied-thumb.webp","alt":"Lilly signage on a building beneath an American flag.","caption":"User-supplied cover image · Company signage; not a photograph documenting the announced transaction.","width":1500,"height":1050}});

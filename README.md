@@ -36,3 +36,5 @@ Twenty-nine news articles across the October 16–24 editions and two original a
 
 This export excludes Sites hosting metadata, `.git` history/remotes, credentials, local caches, preview screenshots, research scratch files and machine-specific image-generation/test helpers. `.gitignore` excludes local secrets and generated output. Automated scans are a safeguard, not a guarantee against every possible secret format; review future staged changes before committing. No custom domain is assumed.
 
+
+Editorial drafting and review follow [EDITORIAL-STYLE.md](EDITORIAL-STYLE.md), required by AGENTS.md. The site has no autonomous text-generation service; these instructions govern agent-authored editions and future integrations.

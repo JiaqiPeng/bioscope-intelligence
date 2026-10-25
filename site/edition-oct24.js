@@ -44,19 +44,31 @@ articles.unshift(...[
     ],
     "paragraphs": [
       [
-        "Amgen reported on October 24 that Imdelltra plus AstraZeneca’s Imfinzi reduced the relative risk of death by 58% versus Imfinzi alone in Phase 3 DeLLphi-305. Patients had extensive-stage small-cell lung cancer that had not progressed after initial Imfinzi and chemotherapy. The comparison concerns maintenance treatment, not replacement of that initial therapy.",
+        "Amgen’s cancer medicine Imdelltra could move earlier into treatment after a late-stage trial showed that adding it to Imfinzi helped people with an aggressive form of lung cancer live longer. The company announced the results on October 24.",
         [
           "amgenOct24"
         ]
       ],
       [
-        "Median overall survival from maintenance treatment was 21.1 months with the combination versus 12.7 months with Imfinzi alone. Nearly 80% versus 53% were alive at one year. The 58% figure is a relative time-to-event measure, not an absolute survival improvement or a cure rate.",
+        "The Phase 3 DeLLphi-305 trial enrolled patients with extensive-stage small-cell lung cancer whose disease had not worsened after initial Imfinzi and chemotherapy. Researchers then compared Imdelltra plus Imfinzi with Imfinzi alone as maintenance treatment, intended to keep the cancer under control after that initial course.",
         [
           "amgenOct24"
         ]
       ],
       [
-        "Grade 3 or higher treatment-related adverse events occurred in 20.9% versus 10.8%. Cytokine release syndrome—an inflammatory immune reaction—affected 49.6% receiving the combination, predominantly at low grades. The findings strengthen the case for moving this T-cell engager earlier in treatment, but the interim results are not a new approval: Amgen plans to discuss them with regulators.",
+        "Median survival after maintenance treatment began was 21.1 months with the combination, compared with 12.7 months with Imfinzi alone. Nearly 80% of patients receiving both medicines were alive at one year, versus 53% in the comparison group. The reported 58% reduction describes the relative risk of death during follow-up; it does not mean survival improved by 58 percentage points.",
+        [
+          "amgenOct24"
+        ]
+      ],
+      [
+        "The benefit came with additional side effects. Severe or worse treatment-related adverse events occurred in 20.9% of patients receiving the combination and 10.8% receiving Imfinzi alone. Cytokine release syndrome, an inflammatory immune reaction, affected 49.6% of combination patients, mostly at low severity.",
+        [
+          "amgenOct24"
+        ]
+      ],
+      [
+        "For Amgen, the findings support seeking an earlier role for Imdelltra. For patients, the question now is how the survival benefit and treatment burden will translate into practice. These are interim findings, not a new approval, and Amgen plans to discuss them with regulators.",
         [
           "amgenOct24"
         ]
@@ -66,7 +78,7 @@ articles.unshift(...[
     "editionDate": "2026-10-24",
     "eventDate": "2026-10-24",
     "sourceCutoff": "2026-10-24",
-    "minutes": 1,
+    "minutes": 2,
     "image": {
       "src": "images/edition-oct24-amgen.webp",
       "thumbnail": "images/edition-oct24-amgen-thumb.webp",
@@ -94,19 +106,31 @@ articles.unshift(...[
     ],
     "paragraphs": [
       [
-        "AstraZeneca presented Phase 3 VOLGA results on October 24 for muscle-invasive bladder cancer in patients ineligible for, or declining, cisplatin chemotherapy. Imfinzi given around surgery with enfortumab vedotin, marketed as Padcev, before surgery reduced the relative risk of death by 42%. The comparator was bladder-removal surgery with or without approved treatment afterward.",
+        "AstraZeneca’s Imfinzi–Padcev regimen helped people with muscle-invasive bladder cancer live longer in a late-stage trial, offering evidence for another treatment option for patients who cannot receive, or choose not to receive, cisplatin chemotherapy. The company presented the findings on October 24.",
         [
           "astrazenecaOct24"
         ]
       ],
       [
-        "Estimated two-year survival was 78% with the regimen versus 69% in the comparator group. The risk of progression, recurrence, not undergoing surgery or death was 49% lower; 64% versus 45% were alive and event-free at two years. These findings concern treatment around surgery, not all bladder-cancer settings.",
+        "The Phase 3 VOLGA trial studied treatment around bladder-removal surgery. Patients received Imfinzi before and after surgery, with enfortumab vedotin, marketed as Padcev, given beforehand. The comparison group underwent surgery with or without an approved treatment afterward. This setting matters: the results do not describe every form or stage of bladder cancer.",
         [
           "astrazenecaOct24"
         ]
       ],
       [
-        "Grade 3–4 adverse events from any cause occurred in 64% versus 44%, with no new safety signals reported. The FDA had granted this regimen priority review in September; that is an accelerated review process, not approval. The results strengthen the case for an additional option in a population with limited chemotherapy choices, while leaving toxicity and regulatory assessment central to adoption.",
+        "At two years, an estimated 78% of patients receiving the regimen were alive, compared with 69% in the comparison group. The reported 42% reduction in death risk is a relative measure over follow-up, rather than a 42-point increase in survival.",
+        [
+          "astrazenecaOct24"
+        ]
+      ],
+      [
+        "The regimen also reduced the combined risk of progression, recurrence, not undergoing surgery or death by 49%. An estimated 64% of patients were alive without those events at two years, versus 45% in the comparison group. However, severe or life-threatening adverse events from any cause occurred in 64% versus 44%. AstraZeneca reported no new safety signals.",
+        [
+          "astrazenecaOct24"
+        ]
+      ],
+      [
+        "The FDA granted the regimen priority review in September, accelerating its assessment without guaranteeing approval. The practical question is whether the added benefit justifies the treatment burden for individual patients. Regulatory review is the next step toward determining its role in care.",
         [
           "astrazenecaOct24"
         ]
@@ -116,7 +140,7 @@ articles.unshift(...[
     "editionDate": "2026-10-24",
     "eventDate": "2026-10-24",
     "sourceCutoff": "2026-10-24",
-    "minutes": 1,
+    "minutes": 2,
     "image": {
       "src": "images/edition-oct24-astrazeneca.webp",
       "thumbnail": "images/edition-oct24-astrazeneca-thumb.webp",
@@ -143,19 +167,31 @@ articles.unshift(...[
     ],
     "paragraphs": [
       [
-        "Lilly reported on October 24 that sofetabart mipitecan (Sofe-M), its investigational antibody-drug conjugate, combined with bevacizumab produced a confirmed response rate of 79.3% in platinum-sensitive ovarian cancer. Of 29 patients with measurable disease, six had complete responses and 17 had partial responses. The treatment cohort included 33 women.",
+        "Lilly reported encouraging early results on October 24 for an experimental ovarian cancer treatment, with tumors responding in roughly four out of five evaluable patients. The result came from combining sofetabart mipitecan, known as Sofe-M, with bevacizumab—not from testing Sofe-M alone.",
         [
           "lillyOct24"
         ]
       ],
       [
-        "Sofe-M targets folate receptor alpha to deliver a cancer-killing payload into tumor cells. Patients had received a median of three previous treatment regimens. Median response duration and progression-free survival had not yet been reached at the reported follow-up, so the durability of benefit remains uncertain.",
+        "The Phase 1 study included 33 women with platinum-sensitive ovarian cancer, a category reflecting the disease’s response to previous platinum-based chemotherapy. They had received a median of three earlier treatment regimens. Sofe-M is an antibody-drug conjugate: it targets a protein called folate receptor alpha to deliver a cancer-killing drug into tumor cells.",
         [
           "lillyOct24"
         ]
       ],
       [
-        "This small early-stage cohort does not establish superiority over standard treatment or an improvement in survival. Grade 3 or higher neutropenia occurred in 42% and anemia in 24%; 42% required dose reductions. The signal supports further testing, including the ongoing Phase 3 FRAmework-01 programme, rather than treating the 79% response rate as a cure rate or attributing it to the ADC alone.",
+        "Among 29 patients with measurable disease, 23 had a confirmed response, giving a rate of 79.3%. Six had complete responses and 17 had partial responses. These measures describe changes in detectable cancer, not proof of a cure or longer survival.",
+        [
+          "lillyOct24"
+        ]
+      ],
+      [
+        "Median response duration and the time patients lived without their cancer worsening had not yet been reached. Longer follow-up will help establish how durable the benefit is. Side effects also require attention: severe or worse neutropenia, a reduction in infection-fighting white blood cells, occurred in 42%, and anemia in 24%. Dose reductions were needed in 42%.",
+        [
+          "lillyOct24"
+        ]
+      ],
+      [
+        "The findings give Lilly a reason to continue development, but a small early-stage group cannot establish superiority over standard care. The ongoing Phase 3 FRAmework-01 programme will provide a more substantial test of the medicine’s potential role.",
         [
           "lillyOct24"
         ]
@@ -165,7 +201,7 @@ articles.unshift(...[
     "editionDate": "2026-10-24",
     "eventDate": "2026-10-24",
     "sourceCutoff": "2026-10-24",
-    "minutes": 1,
+    "minutes": 2,
     "image": {
       "src": "images/edition-oct24-lilly.webp",
       "thumbnail": "images/edition-oct24-lilly-thumb.webp",

@@ -191,3 +191,107 @@ signals.splice(0,signals.length,...[
     "article": "roche-sefaxersen-igan-phase3"
   }
 ]);
+
+// October 23 edition addition: omitted announcement restored.
+Object.assign(sources,{
+  "zymeworksOct23": {
+    "title": "ZW209 global license and collaboration announcement",
+    "publisher": "Zymeworks / SEC exhibit",
+    "url": "https://www.sec.gov/Archives/edgar/data/1937653/000193765326000055/finalpr.htm",
+    "kind": "Company announcement",
+    "date": "2026-10-23",
+    "accessed": "2026-10-24"
+  },
+  "zymeworks8kOct23": {
+    "title": "ZW209 collaboration and license agreement: financial terms",
+    "publisher": "Zymeworks / SEC",
+    "url": "https://www.sec.gov/Archives/edgar/data/1937653/000193765326000055/zyme-20261022.htm",
+    "kind": "Form 8-K filed October 23; agreement signed October 22",
+    "date": "2026-10-23",
+    "accessed": "2026-10-24"
+  }
+});
+articles.splice(3,0,{
+  "id": "roche-zymeworks-zw209-deal",
+  "type": "News",
+  "category": "Deals & strategy",
+  "region": "Global",
+  "tech": "Antibodies",
+  "companies": [
+    "roche"
+  ],
+  "deals": [
+    "roche-zymeworks-2026"
+  ],
+  "title": "Roche strikes up to $813 million lung cancer drug deal with Zymeworks",
+  "deck": "The worldwide ZW209 licence pairs $55 million upfront with conditional payments for an early-stage T-cell engager.",
+  "sources": [
+    "zymeworksOct23",
+    "zymeworks8kOct23"
+  ],
+  "paragraphs": [
+    [
+      "Zymeworks announced on October 23 that Roche will license worldwide rights to ZW209, an experimental antibody treatment being studied in small-cell lung cancer and other DLL3-expressing neuroendocrine tumors. The Phase 1 programme is assessing safety and preliminary antitumor activity; the agreement does not establish that the medicine works in patients.",
+      [
+        "zymeworksOct23"
+      ]
+    ],
+    [
+      "The potential $813 million comprises $55 million upfront, payable after U.S. antitrust clearance, $40 million upon initiation of Phase 1b, and up to $718 million in further milestones. Tiered royalties on future sales are additional. Most of the headline value therefore depends on development and commercial progress, rather than cash paid at signing.",
+      [
+        "zymeworks8kOct23"
+      ]
+    ],
+    [
+      "ZW209 is designed to bind DLL3 on tumor cells and CD3 and CD28 on immune T cells, helping direct and stimulate an immune attack. Zymeworks will run the Phase 1a monotherapy trial with Roche funding; Roche takes responsibility for subsequent global development and commercialization. Strategically, the partnership gives Roche an early oncology programme while sharing its initial development work with the originator. Whether that design produces durable responses with acceptable safety remains a clinical question.",
+      [
+        "zymeworksOct23",
+        "zymeworks8kOct23"
+      ]
+    ]
+  ],
+  "date": "2026-10-23",
+  "editionDate": "2026-10-23",
+  "sourceCutoff": "2026-10-23",
+  "eventDate": "2026-10-23",
+  "minutes": 1,
+  "relatedArticles": [
+    "roche-hansoh-adc-portfolio",
+    "jazz-ziihera-gea-survival"
+  ],
+  "image": {
+    "src": "images/roche-zymeworks-supplied.webp",
+    "thumbnail": "images/roche-zymeworks-supplied-thumb.webp",
+    "width": 1500,
+    "height": 1050,
+    "alt": "Two researchers examining a sample tube at a laboratory bench.",
+    "caption": "User-supplied illustrative laboratory image; not a documented photograph of ZW209 research."
+  }
+});
+deals.unshift({
+  "id": "roche-zymeworks-2026",
+  "company": "roche",
+  "companies": [
+    "roche"
+  ],
+  "partner": "Zymeworks",
+  "asset": "ZW209 / DLL3 trispecific T-cell engager",
+  "tech": "Antibodies",
+  "area": "Oncology",
+  "stage": "Phase 1",
+  "type": "Licensing",
+  "country": "Canada / United States",
+  "date": "2026-10-23",
+  "reviewed": "2026-10-24",
+  "year": "2026",
+  "crossChina": false,
+  "upfront": 55,
+  "value": null,
+  "valueDisplay": "Up to $813m + royalties",
+  "status": "Announced; antitrust clearance pending",
+  "sources": [
+    "zymeworksOct23",
+    "zymeworks8kOct23"
+  ],
+  "notes": "Global rights. $55m upfront following HSR clearance; $40m upon Phase 1b initiation; up to $718m further milestones. Tiered high-single-digit to mid-teen royalties additional. Roche funds Phase 1a and subsequent development. Agreement signed October 22; publicly announced October 23."
+});

@@ -28,9 +28,39 @@ footer{background:var(--navy);border-top:4px solid var(--blue);padding-top:45px;
 .approved-brand .wordmark,.approved-brand .brand-sub{visibility:hidden}
 .approved-brand:before,.approved-brand:after{display:none}
 .approved-logo{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}
-footer .approved-logo{background:#fff}
+footer .approved-logo{background:transparent;filter:brightness(0) invert(1)}
 .editorial-image,.article-figure .editorial-image{object-fit:cover;object-position:center}
 
 /* Compact article covers keep the reporting within reach. */
 .article-figure .editorial-image{height:300px;aspect-ratio:auto;object-fit:cover}
 @media(max-width:620px){.article-figure .editorial-image{height:190px}}
+
+/* Final editorial proportions: typography only, retaining the approved geometry. */
+header p{font-size:13px;line-height:1.55}
+.edition-link{font-size:13px;font-weight:600}
+nav a{font-size:13px;font-weight:500}
+nav button{font-size:12px}
+.eyebrow,.story-row .eyebrow,.latest article .eyebrow{font-size:10.5px!important;letter-spacing:1.1px}
+.byline,.story-row .date-line,.date-line{font-size:11px;line-height:1.65}
+.feature-copy h1{font-size:clamp(40px,3.3vw,50px);line-height:1.08;letter-spacing:-.6px}
+.article h1{font-size:clamp(40px,4vw,53px);line-height:1.08;letter-spacing:-.6px;max-width:890px}
+.article .intro{font-size:19px;line-height:1.6}
+.article-body p{font-size:19px;line-height:1.8}
+.story-row h2,.latest-grid .story-row h2,.listing .story-row h2{font-size:26px;line-height:1.15}
+.analysis-card h3{font-size:24px;line-height:1.15}
+.article-figure figcaption,.article-body .inline-source,.source-type,.notice,.tag,.status-label,.facts dt,th,#search-results a span,.bar-group span{font-size:10px}
+.edition{font-size:10px}
+@media(max-width:900px){nav a{font-size:12px}#nav{gap:20px}}
+@media(max-width:620px){
+.edition{font-size:9.5px}
+.edition-link{font-size:10.5px;line-height:1.5;max-width:94px}
+nav a{font-size:11px;font-weight:500}#nav{gap:19px}
+.kicker .eyebrow{font-size:10px!important}
+.feature-copy h1{font-size:38px;line-height:1.08;letter-spacing:-.5px}
+.article h1{font-size:38px;line-height:1.08;letter-spacing:-.5px}
+.article .intro{font-size:17px;line-height:1.6}
+.article-body p{font-size:18px;line-height:1.8}
+.byline,.feature-copy .byline,.date-line,.story-row .date-line{font-size:10px}
+.latest-grid .story-row h2,.listing .story-row h2,.story-row h2{font-size:25px;line-height:1.15}
+.article-figure figcaption{font-size:10px}
+}

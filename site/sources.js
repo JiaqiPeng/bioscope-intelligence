@@ -1,4 +1,4 @@
-const EDITION_DATE='2026-10-24';
+const EDITION_DATE='2026-10-25';
 const sourceRows=[
 ['azSummit','AstraZeneca completes its Summit equity investment','AstraZeneca','2026-10-05','Company announcement','https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-completes-equity-investment-in-summit-therapeutics.html'],
 ['azDato','Datroway / ivonescimab clinical collaboration','AstraZeneca','2026-10-02','Company announcement','https://www.astrazeneca.com/media-centre/press-releases/2026/az-ds-collaboration-with-summit-for-datroway.html'],

@@ -3,7 +3,7 @@ Object.assign(sources,{
   "divarasibOct25": {
     "title": "Roche’s divarasib cuts death risk by 44% against existing lung cancer drugs",
     "publisher": "Roche",
-    "url": "https://www.roche.com/investors/updates/inv-update-2026-10-25",
+    "url": "https://www.roche.com/media/releases/med-cor-2026-10-25",
     "kind": "Sponsor-reported Phase 3 results",
     "date": "2026-10-25",
     "accessed": "2026-10-26"
@@ -44,31 +44,27 @@ articles.unshift(...[
     ],
     "paragraphs": [
       [
-        "Roche’s experimental lung cancer medicine divarasib helped patients live longer than two existing targeted drugs in a late-stage trial, the company reported on October 25. The result gives Roche evidence from a direct comparison with established treatments as it seeks regulatory approval.",
+        "Roche reported on October 25 that its experimental lung cancer drug divarasib reduced the risk of death by 44% compared with two already-approved targeted therapies in a Phase 3 clinical trial. The results suggest that divarasib could become a more effective treatment option for patients with advanced non-small cell lung cancer (NSCLC) carrying the KRAS G12C mutation.",
+        []
+      ],
+      [
+        "In the 338-patient Krascendo 1 study, median overall survival reached 17.7 months with divarasib, compared with 12.0 months among patients receiving sotorasib or adagrasib, marketed as Amgen's Lumakras and Bristol Myers Squibb's Krazati. Divarasib also reduced the risk of disease progression or death by 42%, extending median progression-free survival to 9.8 months from 5.7 months. The findings were presented at the ESMO Congress in Madrid and simultaneously published in The New England Journal of Medicine.",
         [
           "divarasibOct25"
         ]
       ],
       [
-        "The Phase 3 Krascendo 1 study involved previously treated patients with advanced non-small cell lung cancer carrying the KRAS G12C mutation. This genetic change affects a protein that regulates cell growth, allowing abnormal growth signals to persist. Divarasib and the comparison medicines, sotorasib and adagrasib, target that altered protein. The findings therefore concern this molecularly defined group, not all lung cancers.",
+        "The results are particularly significant because divarasib was tested directly against approved medicines targeting the same mutation, rather than against conventional chemotherapy. KRAS G12C is a genetic alteration found in approximately 12–14% of non-small cell lung cancers. It causes a protein involved in regulating cell growth to remain abnormally active, helping drive tumor development. Existing KRAS inhibitors work by blocking this activity, but many patients eventually experience disease progression despite treatment. Divarasib is designed to inhibit the same mutated protein more effectively.",
+        []
+      ],
+      [
+        "Beyond survival, divarasib achieved a confirmed tumor response rate of 58%, compared with 32% for the existing treatments. Its safety profile was also encouraging: 4.8% of patients discontinued divarasib because of treatment-related side effects, versus 11.7% in the comparator group. Gastrointestinal problems and liver toxicity remained important risks. The reported 44% reduction represents a relative risk measure over the study period, not an absolute reduction in the proportion of patients who died.",
         [
           "divarasibOct25"
         ]
       ],
       [
-        "Divarasib reduced the relative risk of death by 44%. Median survival—the point at which half the patients were estimated to remain alive—was approximately 18 months, compared with 12 months in the comparison group. The percentage describes risk during follow-up, not a guarantee of additional life for each patient.",
-        [
-          "divarasibOct25"
-        ]
-      ],
-      [
-        "The risk of cancer worsening or death was also 42% lower. Roche reported no new safety findings and said common treatment-related side effects were mostly mild.",
-        [
-          "divarasibOct25"
-        ]
-      ],
-      [
-        "The comparison supports divarasib’s potential to improve treatment within an established drug class. It remains investigational, however, and the next step is regulatory assessment rather than an immediate change in care.",
+        "For the pharmaceutical industry, the findings could reshape competition in the KRAS-targeted lung cancer market, currently served by Amgen and Bristol Myers Squibb. Roche is also evaluating divarasib in earlier stages of treatment and in combinations with immunotherapy, potentially expanding its use beyond patients whose cancer has already progressed. The drug remains investigational, and its commercial and clinical impact will depend on regulatory authorization and further trial results. Roche says it is working with health authorities to bring the treatment to patients.",
         [
           "divarasibOct25"
         ]

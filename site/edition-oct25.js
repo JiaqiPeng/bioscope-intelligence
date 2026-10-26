@@ -23,6 +23,14 @@ Object.assign(sources,{
     "kind": "Sponsor-reported Phase 3 results",
     "date": "2026-10-25",
     "accessed": "2026-10-26"
+  },
+  "saffronHutchmed": {
+    "title": "Hutchmed highlights SAFFRON global Phase III data presented at ESMO Congress 2026",
+    "publisher": "Hutchmed",
+    "url": "https://www.globenewswire.com/news-release/2026/10/26/3387782/0/en/hutchmed-highlights-saffron-global-phase-iii-data-presented-at-esmo-congress-2026-and-simultaneously-published-in-the-new-england-journal-of-medicine.html",
+    "kind": "Sponsor report confirming October 25 trial findings",
+    "date": "2026-10-26",
+    "accessed": "2026-10-26"
   }
 });
 articles.unshift(...[
@@ -160,35 +168,32 @@ articles.unshift(...[
     "title": "AstraZeneca and Hutchmed show a survival benefit in treatment-resistant lung cancer",
     "deck": "Adding Orpathys to Tagrisso helped a selected group whose tumors had developed MET-driven resistance to earlier treatment.",
     "sources": [
-      "saffronOct25"
+      "saffronOct25",
+      "saffronHutchmed"
     ],
     "paragraphs": [
       [
-        "AstraZeneca and Hutchmed reported a way to extend treatment benefit after a lung cancer medicine stops controlling the disease. Results announced on October 25 showed that combining Tagrisso with Orpathys helped selected patients live longer than platinum-based chemotherapy.",
+        "AstraZeneca and Hutchmed reported on October 25 that combining their targeted lung cancer drugs Tagrisso (osimertinib) and Orpathys (savolitinib) reduced the risk of death by 32% compared with chemotherapy in a Phase 3 clinical trial. The results suggest a new treatment option for patients with advanced non-small cell lung cancer whose tumors develop resistance to existing targeted therapies.",
+        []
+      ],
+      [
+        "In the 338-patient SAFFRON trial, median overall survival reached 17.8 months with the combination, compared with 12.9 months for patients receiving platinum-based chemotherapy. The treatment also reduced the risk of disease progression or death by 45%, extending median progression-free survival to 7.6 months from 5.4 months. At one year, 70% of patients receiving the combination were alive, versus 53% in the chemotherapy group. The findings were presented at the ESMO Congress in Madrid and simultaneously published in The New England Journal of Medicine.",
         [
           "saffronOct25"
         ]
       ],
       [
-        "The Phase 3 SAFFRON trial enrolled 338 patients with advanced non-small cell lung cancer driven by an EGFR gene mutation. Their disease had worsened on Tagrisso, and testing found excess MET protein or extra copies of the MET gene. These changes can provide another growth signal that helps cancer evade treatment. Orpathys targets MET while Tagrisso continues blocking EGFR.",
+        "The results address a major challenge in treating EGFR-mutated lung cancer: acquired drug resistance. Tagrisso works by blocking abnormal EGFR signaling that drives tumor growth, but cancer cells can eventually develop alternative mechanisms to survive treatment. One common resistance pathway involves increased activity of MET, another protein involved in cell growth. Orpathys targets MET, allowing the combination to inhibit both the original cancer-driving mutation and a mechanism that helps tumors escape treatment. The SAFFRON trial specifically enrolled patients whose cancers had progressed after Tagrisso and showed MET overexpression or amplification.",
+        []
+      ],
+      [
+        "The survival benefit was accompanied by a safety profile generally consistent with the known risks of both medicines. Severe treatment-emergent adverse events occurred in 64% of patients receiving the combination, compared with 63% in the chemotherapy group. No new safety concerns were identified, although significant side effects remain an important consideration. The reported 32% reduction in death risk is a relative measure over the study period, not an absolute reduction in the proportion of patients who died.",
         [
-          "saffronOct25"
+          "saffronHutchmed"
         ]
       ],
       [
-        "Median survival was 17.8 months with the combination versus 12.9 months with chemotherapy. The relative risk of death fell by 32%; this is a comparison over follow-up, not a 32-point increase in survival. Median time before cancer worsened or patients died was 7.6 versus 5.4 months.",
-        [
-          "saffronOct25"
-        ]
-      ],
-      [
-        "Severe or worse adverse events from any cause occurred in 64% versus 63%. The combination group received treatment for longer, which matters when interpreting those figures. The companies reported no new safety concerns.",
-        [
-          "saffronOct25"
-        ]
-      ],
-      [
-        "An application has been submitted to the FDA, but submission is not approval. The practical implication is that testing the biology of resistant tumors may help identify another targeted option. These results do not establish that the combination benefits every patient whose cancer progresses on Tagrisso.",
+        "For the pharmaceutical industry, the findings strengthen AstraZeneca's position in precision oncology while highlighting the growing contribution of Chinese biotechnology companies to international drug development. Hutchmed developed savolitinib and has partnered with AstraZeneca on the drug's clinical development and commercialization. The combination is already approved in China for certain patients with MET-amplified lung cancer, while regulatory submissions are advancing in other markets. If authorized more broadly, Tagrisso plus Orpathys could establish an all-oral treatment option for patients whose EGFR-mutated lung cancer develops MET-driven resistance, potentially replacing chemotherapy for an important subgroup of patients.",
         [
           "saffronOct25"
         ]
@@ -198,7 +203,7 @@ articles.unshift(...[
     "editionDate": "2026-10-25",
     "eventDate": "2026-10-25",
     "sourceCutoff": "2026-10-25",
-    "minutes": 2,
+    "minutes": 3,
     "image": {
       "src": "images/edition-oct25-saffron.webp",
       "thumbnail": "images/edition-oct25-saffron-thumb.webp",

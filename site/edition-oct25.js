@@ -104,31 +104,27 @@ articles.unshift(...[
     ],
     "paragraphs": [
       [
-        "AstraZeneca reported on October 25 that sonesitatug vedotin improved survival in advanced stomach and related cancers. The experimental antibody-drug conjugate, or ADC, uses an antibody to carry a cancer-killing drug toward cells bearing the protein Claudin 18.2.",
+        "AstraZeneca reported on October 25 that its experimental gastric cancer drug sonesitatug vedotin (Sone-Ve) reduced the risk of death by 53% in patients who had received at least two previous treatments. The Phase 3 results suggest that the antibody-drug conjugate (ADC) could offer a new treatment option for patients with advanced stomach cancer, where survival remains poor after existing therapies stop working.",
+        []
+      ],
+      [
+        "In the global CLARITY-Gastric01 trial, median overall survival reached 10.0 months among patients receiving Sone-Ve as a third-line or later treatment, compared with 5.0 months for those receiving physician-selected therapies. Across the broader trial population, which also included patients receiving second-line treatment, Sone-Ve reduced the risk of death by 42%, extending median survival to 10.6 months from 6.4 months. The findings were presented at the ESMO Congress in Madrid.",
         [
           "soneveOct25"
         ]
       ],
       [
-        "The late-stage CLARITY-Gastric01 trial enrolled patients whose tumors expressed that protein and who had already received treatment. In the third-line and later group—people who had received at least two previous treatments—the relative risk of death fell by 53% versus the doctor’s choice of therapy.",
+        "Sone-Ve targets Claudin 18.2 (CLDN18.2), a protein expressed on the surface of certain gastrointestinal cancer cells. As an ADC, the drug combines an antibody that recognizes the target with a chemotherapy payload designed to kill cancer cells. The trial included patients whose tumors expressed CLDN18.2 in at least 25% of cancer cells, a broader threshold than that used for some existing targeted treatments. AstraZeneca estimates that approximately 60% of gastric and gastroesophageal junction cancers meet this expression threshold, potentially expanding the population eligible for targeted therapy.",
+        []
+      ],
+      [
+        "The survival benefit was accompanied by a manageable safety profile. Severe treatment-related adverse events occurred in 36.4% of patients receiving Sone-Ve, compared with 44.8% in the control group. However, the study did not achieve statistical significance for its other primary endpoint, progression-free survival, in the overall population. This means that although patients receiving Sone-Ve lived significantly longer, the trial did not conclusively demonstrate an improvement in the time before their cancer progressed under that endpoint's statistical criteria. The reported 53% reduction is a relative measure of mortality risk in the third-line and later population, not an absolute reduction in deaths.",
         [
           "soneveOct25"
         ]
       ],
       [
-        "Median survival in that group was 10 months versus five months. Across the broader population, which also included patients after just one previous treatment, the reduction was 42%, with median survival of 10.6 versus 6.4 months. These are distinct comparisons: the 53% figure should not be applied to every patient in the trial.",
-        [
-          "soneveOct25"
-        ]
-      ],
-      [
-        "There was also a limitation. Independent assessment of the time before cancer worsened or patients died did not meet the trial’s statistical threshold, despite the survival benefit. Severe or worse treatment-related adverse events occurred in 36.4% versus 44.8%.",
-        [
-          "soneveOct25"
-        ]
-      ],
-      [
-        "The findings strengthen the case for further development, but do not make the medicine an approved treatment. For readers assessing its prospects, the survival improvement and the missed progression endpoint both matter; a single headline percentage cannot capture the full evidence.",
+        "For the pharmaceutical industry, the findings strengthen AstraZeneca's position in the increasingly competitive market for CLDN18.2-targeted cancer treatments. The company licensed Sone-Ve from China's KYM Biosciences in 2023, reflecting the growing importance of Chinese biotechnology companies as sources of innovative medicines for global drugmakers. AstraZeneca is also evaluating Sone-Ve in earlier treatment settings and in combinations with other cancer therapies, including immunotherapy. The drug remains investigational, and its future clinical and commercial impact will depend on regulatory decisions, additional trial results, and how it compares with other emerging gastric cancer treatments.",
         [
           "soneveOct25"
         ]
@@ -138,7 +134,7 @@ articles.unshift(...[
     "editionDate": "2026-10-25",
     "eventDate": "2026-10-25",
     "sourceCutoff": "2026-10-25",
-    "minutes": 2,
+    "minutes": 3,
     "image": {
       "src": "images/edition-oct25-soneve.webp",
       "thumbnail": "images/edition-oct25-soneve-thumb.webp",

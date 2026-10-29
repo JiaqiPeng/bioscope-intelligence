@@ -4,7 +4,7 @@ const root=path.resolve(__dirname,'..'),src=path.join(root,'site'),out=path.join
 const files=[];function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){assert(!e.isSymbolicLink(),'Symlinks are not allowed');const p=path.join(dir,e.name);if(e.isDirectory())walk(p);else files.push(p);}}walk(src);
 for(const p of files){assert(/\.(html|css|js|webp|svg|png)$/.test(p),'Unexpected deployable file: '+p);if(!/\.(webp|png)$/.test(p)){const text=fs.readFileSync(p,'utf8');assert(!/(?:file:\/\/|[A-Za-z]:[\\/](?:Users|home)[\\/]|localhost:\d|127\.0\.0\.1:\d)/i.test(text),'Local-only path in '+p);assert(!/(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|(?<![A-Za-z0-9])sk-[A-Za-z0-9_-]{32,}|AKIA[A-Z0-9]{16}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)/.test(text),'Credential signature in '+p);if(p.endsWith('.js'))new vm.Script(text,{filename:p});}}
 const html=fs.readFileSync(path.join(src,'index.html'),'utf8');
-for(const m of html.matchAll(/(?:src|href)="([^"]+)"/g)){const u=m[1];if(/^(?:https?:|#)/.test(u))continue;assert(!u.startsWith('/'),'Root-relative asset: '+u);assert(fs.existsSync(path.join(src,u)),'Missing asset: '+u);}
+for(const m of html.matchAll(/(?:src|href)="([^"]+)"/g)){const u=m[1];if(/^(?:https?:|#)/.test(u)||u==='/')continue;assert(!u.startsWith('/'),'Root-relative asset: '+u);assert(fs.existsSync(path.join(src,u)),'Missing asset: '+u);}
 const scripts=[...html.matchAll(/<script src="([^"]+)"/g)].map(m=>m[1]);
 const ctx=vm.createContext({Intl,Date});for(const f of scripts.filter(f=>f!=='edition-app.js'))vm.runInContext(fs.readFileSync(path.join(src,f),'utf8'),ctx);
 const data=vm.runInContext('({articles,companies,deals,sources,majorCompanyOrder})',ctx);

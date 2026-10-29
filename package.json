@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "description": "BioScope Intelligence static editorial website",
-  "engines": { "node": ">=22" },
-  "scripts": { "build": "node scripts/build.cjs", "check": "node scripts/build.cjs" }
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.cjs && node scripts/prerender.cjs",
+    "check": "node scripts/build.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
 }

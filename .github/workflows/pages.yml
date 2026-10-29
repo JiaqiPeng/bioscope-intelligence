@@ -14,6 +14,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Install build dependencies
+        run: npm install --ignore-scripts
+      - name: Install browser for static rendering
+        run: npx playwright install --with-deps chromium
       - name: Validate and build static site
         run: npm run build
       - uses: actions/configure-pages@v5

@@ -18,3 +18,5 @@ Use the news edition date as the publication date. Verify same-day public availa
 Before publishing, build and check the homepage, news, every new article and deal, related company pages, China topic, search, mobile images and links. Check that each transaction article has a valid deal connection. Verify the live deployment after publishing; a local build alone is not completion.
 
 Before drafting or editing any article, read EDITORIAL-STYLE.md and follow its reusable drafting instruction and editorial review. Its accessible journalism standard supersedes the earlier instruction to preserve the old article style. Preserve design and edition dates. This requirement applies to future automated or agent-authored reporting as well as revisions.
+
+Search indexing: production deployment must run the full npm build, including scripts/prerender.cjs, to regenerate all clean URLs and sitemap.xml. Preserve legacy hash-link compatibility. Verify HTML content with JavaScript disabled and clean-route reloads after routing changes. Do not submit hash URLs to search engines.

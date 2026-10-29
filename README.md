@@ -1,18 +1,18 @@
 # BioScope Intelligence — GitHub publication copy
 
-This is the standalone publication root. Upload this folder's contents to a new GitHub repository, not its parent Sites checkout or Git history. A local Git repository has been initialized on main. The publication repository is https://github.com/JiaqiPeng/bioscope-intelligence and the public site is https://jiaqipeng.github.io/bioscope-intelligence/.
+This is the standalone publication root. Upload this folder's contents to a new GitHub repository, not its parent Sites checkout or Git history. A local Git repository has been initialized on main. The publication repository is https://github.com/JiaqiPeng/bioscope-intelligence and the public site is https://bioscopeintel.com/.
 
 ## Framework and build
 
-Plain HTML, CSS and vanilla JavaScript. No React, Vite, server, database or runtime API credentials. `site/` contains the complete existing application and editorial photo assets, the supplied logo and retained illustrations. Node 22+ is used only for a dependency-free validation/packaging step:
+Plain HTML, CSS and vanilla JavaScript. No React, Vite, server, database or runtime API credentials. `site/` contains the complete existing application and editorial photo assets, the supplied logo and retained illustrations. Node 22+ validates and packages the site. Playwright renders the existing UI into static HTML for search engines:
 
 ```sh
+npm install --ignore-scripts
+npx playwright install chromium
 npm run build
 ```
 
-Equivalent without npm: `node scripts/build.cjs`. This direct Node command was used for the successful local production build because npm is not installed on the preparation host.
-
-No npm install is required. Production output is `_site/`; do not commit it. The build validates scripts, referenced images, content relationships, archive boundaries and local-path/credential signatures. It copies the site without changing content or styling and adds `.nojekyll`.
+Production output is `_site/`; do not commit it. The build validates scripts, assets and content relationships, then generates complete HTML pages, canonical metadata, structured data, sitemap.xml, robots.txt and a real 404 page. `node scripts/build.cjs` alone is validation/packaging only; always run `scripts/prerender.cjs` afterward for publication. An installed browser may be selected with `PLAYWRIGHT_CHANNEL` for local builds.
 
 ## GitHub Pages setup (when ready to publish)
 
@@ -26,7 +26,7 @@ Configuration follows [GitHub's custom Pages workflow documentation](https://doc
 
 ## Routes and assets
 
-Hash routes work at both `https://OWNER.github.io/` and `https://OWNER.github.io/REPOSITORY/`, for example `#/article/digital-glp1-women-study`. Keep the trailing slash before `#`. Reloading or sharing these links does not require server rewrites or a custom 404 redirect. Clean `/article/...` paths are not used by this application. All app scripts, styles and article images use relative paths. Google Fonts is the only optional external presentation dependency; existing system-font fallbacks remain unchanged. Source citations link to external publishers as before.
+The production origin is https://bioscopeintel.com/. Every article, company, deal and section has a static directory URL, such as `/article/digital-glp1-women-study/`. Existing `#/article/...` links are converted in the browser without losing the destination. A root base URL keeps assets consistent on nested pages. The build crawls internal links and includes all reporting, including archived stories, in the sitemap. Submit https://bioscopeintel.com/sitemap.xml in Google Search Console after domain verification. Search engine inclusion is not guaranteed.
 
 ## Preserved content
 
@@ -34,7 +34,7 @@ Thirty-two news articles across the October 16–25 editions and two original an
 
 ## Publication hygiene
 
-This export excludes Sites hosting metadata, `.git` history/remotes, credentials, local caches, preview screenshots, research scratch files and machine-specific image-generation/test helpers. `.gitignore` excludes local secrets and generated output. Automated scans are a safeguard, not a guarantee against every possible secret format; review future staged changes before committing. No custom domain is assumed.
+This export excludes Sites hosting metadata, `.git` history/remotes, credentials, local caches, preview screenshots, research scratch files and machine-specific image-generation/test helpers. `.gitignore` excludes local secrets and generated output. Automated scans are a safeguard, not a guarantee against every possible secret format; review future staged changes before committing. The custom domain uses GitHub Pages HTTPS.
 
 
 Editorial drafting and review follow [EDITORIAL-STYLE.md](EDITORIAL-STYLE.md), required by AGENTS.md. The site has no autonomous text-generation service; these instructions govern agent-authored editions and future integrations.

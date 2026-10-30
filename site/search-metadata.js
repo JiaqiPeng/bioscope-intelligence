@@ -5,7 +5,7 @@ function updateSearchMetadata(raw){
   const a=routePath.startsWith('article/')?articles.find(a=>a.id===routePath.slice(8)):null;
   const title=routePath?(main.querySelector('h1')?.textContent||'BioScope Intelligence')+' | BioScope Intelligence':'BioScope Intelligence | Global biotech news and analysis';
   const description=a?a.deck:(main.querySelector('.page-head p')?.textContent||'Independent biotechnology and pharmaceutical intelligence: news, analysis, company profiles and global deal coverage.');
-  document.title=title;
+  document.title='BioScope Intelligence';
   function meta(key,value,property=false){let el=document.head.querySelector(`meta[${property?'property':'name'}="${key}"]`);if(!el){el=document.createElement('meta');el.setAttribute(property?'property':'name',key);document.head.append(el);}el.content=value;}
   let c=document.head.querySelector('link[rel="canonical"]');if(!c){c=document.createElement('link');c.rel='canonical';document.head.append(c);}c.href=canonical;
   meta('description',description);meta('robots',main.querySelector('h1')?.textContent==='Page not found'?'noindex,follow':'index,follow');

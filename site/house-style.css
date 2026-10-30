@@ -64,3 +64,19 @@ nav a{font-size:11px;font-weight:500}#nav{gap:19px}
 .latest-grid .story-row h2,.listing .story-row h2,.story-row h2{font-size:25px;line-height:1.15}
 .article-figure figcaption{font-size:10px}
 }
+/* Local editorial homepage proposal: scoped to the top three stories. */
+.feature.homepage-lead{grid-template-columns:0.85fr 1.15fr;gap:32px;padding-bottom:20px;align-items:center}
+.homepage-lead .editorial-image{height:240px;aspect-ratio:auto;object-fit:cover}
+.homepage-lead .feature-copy h1{font-size:clamp(29px,2.7vw,38px);line-height:1.08;margin:10px 0 12px}
+.homepage-lead .feature-copy .deck{font-size:14px;line-height:1.5;margin-bottom:10px}
+.homepage-lead .feature-copy>p:last-child{margin:0}
+.homepage-lead .feature-copy .all-link{margin-top:8px}
+.homepage-secondary{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:20px 0;border-bottom:1px solid var(--line)}
+.secondary-story{display:grid;grid-template-columns:145px minmax(0,1fr);gap:18px;align-items:start}
+.secondary-story+ .secondary-story{border-left:1px solid var(--line);padding-left:28px}
+.secondary-story .editorial-image{height:128px;aspect-ratio:auto;object-fit:cover}
+.secondary-story h2{font:25px/1.12 'Libre Caslon Display',Georgia,serif;margin:7px 0 8px;color:var(--navy)}
+.secondary-deck{font-size:12px;line-height:1.5;color:var(--muted);margin:0 0 8px}
+.homepage-secondary+.brief-note{margin-bottom:30px;padding:12px 0}
+@media(max-width:1100px){.secondary-story{grid-template-columns:110px minmax(0,1fr);gap:14px}.secondary-story h2{font-size:23px}.secondary-deck{display:none}.homepage-lead .editorial-image{height:235px}}
+@media(max-width:760px){.feature.homepage-lead{grid-template-columns:1fr;gap:18px}.homepage-lead .editorial-image{height:220px}.homepage-lead .feature-copy h1{font-size:32px}.homepage-secondary{grid-template-columns:1fr;gap:18px}.secondary-story{grid-template-columns:112px minmax(0,1fr)}.secondary-story+ .secondary-story{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:18px}.secondary-story h2{font-size:23px}.secondary-story .editorial-image{height:110px}.secondary-story .eyebrow{font-size:9px!important}.homepage-secondary+.brief-note{margin-bottom:24px}}

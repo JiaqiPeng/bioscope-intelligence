@@ -1,4 +1,4 @@
-// October 31 update; retain the supplied original news dates.
+// October 31 update; publication dates corrected to October 31; original event and source dates retained.
 Object.assign(sources,{
   "sunOct31": {
     "publisher": "Sun Pharma",
@@ -53,7 +53,7 @@ articles.unshift(...[
   {
     "id": "sun-ilumya-psoriatic-arthritis-approval",
     "title": "Sun Pharma's Ilumya Wins FDA Approval for Psoriatic Arthritis, Expanding Its Immunology Portfolio",
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "deck": "The expanded indication brings a healthcare provider-administered IL-23 treatment to adults with inflammatory joint disease.",
     "category": "Regulation & policy",
     "region": "United States",
@@ -106,7 +106,7 @@ articles.unshift(...[
     "type": "News",
     "sourceCutoff": "2026-10-30",
     "eventDate": "2026-10-30",
-    "editionDate": "2026-10-30",
+    "editionDate": "2026-10-31",
     "deals": [],
     "minutes": 3,
     "image": {
@@ -121,7 +121,7 @@ articles.unshift(...[
   {
     "id": "acumen-sabirnetug-altitude-failure",
     "title": "Acumen Abandons Alzheimer's Drug After Phase 2 Failure Despite Reducing Brain Amyloid",
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "deck": "Sabirnetug reduced amyloid plaques but did not demonstrate cognitive or functional benefit; Acumen will stop development and preserve cash.",
     "category": "Clinical trials",
     "region": "United States",
@@ -171,7 +171,7 @@ articles.unshift(...[
     "type": "News",
     "sourceCutoff": "2026-10-30",
     "eventDate": "2026-10-30",
-    "editionDate": "2026-10-30",
+    "editionDate": "2026-10-31",
     "deals": [],
     "minutes": 3,
     "image": {
@@ -186,7 +186,7 @@ articles.unshift(...[
   {
     "id": "us-bgi-mgi-genomics-import-restrictions",
     "title": "U.S. Blocks Imports From Three Chinese Genomics Companies, Escalating Biotechnology Trade Tensions",
-    "date": "2026-10-29",
+    "date": "2026-10-31",
     "deck": "UFLPA designations impose import restrictions on BGI Group, BGI Genomics and MGI Tech; the companies reject forced-labor allegations.",
     "category": "Regulation & policy",
     "region": "China",
@@ -243,7 +243,7 @@ articles.unshift(...[
     "type": "News",
     "sourceCutoff": "2026-10-29",
     "eventDate": "2026-10-29",
-    "editionDate": "2026-10-29",
+    "editionDate": "2026-10-31",
     "deals": [],
     "minutes": 3,
     "image": {

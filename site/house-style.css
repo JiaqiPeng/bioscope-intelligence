@@ -31,24 +31,24 @@ footer{background:var(--navy);border-top:4px solid var(--blue);padding-top:45px;
 footer .approved-logo{background:transparent;filter:brightness(0) invert(1)}
 .editorial-image,.article-figure .editorial-image{object-fit:cover;object-position:center}
 
-/* Compact article covers keep the reporting within reach. */
-.article-figure .editorial-image {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: min(68vh, 680px);
-  aspect-ratio: auto;
-  object-fit: contain;
+/* Center the cover and caption just outside the reading column. */
+.article-figure {
+  max-width: 780px;
   margin-inline: auto;
 }
-@media (min-width: 1024px) {
-  .article-figure {
-    width: min(1120px, calc(100vw - 80px));
-    margin-inline-start: 50%;
-    transform: translateX(-50%);
+.article-figure .editorial-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  background: white;
+  border: 0;
+}
+@media (max-width: 620px) {
+  .article-figure .editorial-image {
+    aspect-ratio: auto;
   }
 }
-
 
 /* Final editorial proportions: typography only, retaining the approved geometry. */
 header p{font-size:13px;line-height:1.55}

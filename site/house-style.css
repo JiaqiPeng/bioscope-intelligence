@@ -32,8 +32,23 @@ footer .approved-logo{background:transparent;filter:brightness(0) invert(1)}
 .editorial-image,.article-figure .editorial-image{object-fit:cover;object-position:center}
 
 /* Compact article covers keep the reporting within reach. */
-.article-figure .editorial-image{height:300px;aspect-ratio:auto;object-fit:cover}
-@media(max-width:620px){.article-figure .editorial-image{height:190px}}
+.article-figure .editorial-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: min(68vh, 680px);
+  aspect-ratio: auto;
+  object-fit: contain;
+  margin-inline: auto;
+}
+@media (min-width: 1024px) {
+  .article-figure {
+    width: min(1120px, calc(100vw - 80px));
+    margin-inline-start: 50%;
+    transform: translateX(-50%);
+  }
+}
+
 
 /* Final editorial proportions: typography only, retaining the approved geometry. */
 header p{font-size:13px;line-height:1.55}

@@ -32,22 +32,21 @@ footer .approved-logo{background:transparent;filter:brightness(0) invert(1)}
 .editorial-image,.article-figure .editorial-image{object-fit:cover;object-position:center}
 
 /* Center the cover and caption just outside the reading column. */
-.article-figure {
+.article-figure,
+.research-cover {
   max-width: 780px;
   margin-inline: auto;
 }
-.article-figure .editorial-image {
+.article-figure .editorial-image,
+.research-cover .editorial-image {
   width: 100%;
   height: auto;
-  aspect-ratio: 3 / 2;
-  object-fit: contain;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
   background: white;
   border: 0;
-}
-@media (max-width: 620px) {
-  .article-figure .editorial-image {
-    aspect-ratio: auto;
-  }
 }
 
 /* Final editorial proportions: typography only, retaining the approved geometry. */

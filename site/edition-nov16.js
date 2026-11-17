@@ -69,6 +69,7 @@ Object.assign(sources,{
 articles.unshift(...[
   {
     "id": "jnj-ollin-acquisition-2026",
+    "relatedArticles": ["pfizer-blackstone-berobenatide", "jnj-icotyde-psoriatic-arthritis"],
     "title": "Johnson & Johnson Agrees to Acquire Ollin Biosciences for Up to $3.33 Billion, With Blackstone Funding Phase 3 Trials",
     "deck": "Johnson & Johnson will pay $2.2 billion upfront for retinal-disease developer Ollin, with further contingent payments; Blackstone separately commits $750 million to Phase 3 development.",
     "category": "Deals & strategy",
@@ -159,6 +160,7 @@ articles.unshift(...[
   },
   {
     "id": "lilly-calytrix-acquisition-2026",
+    "relatedArticles": ["lilly-sofe-m-ovarian-response", "lilly-q3-2026-obesity-revenue"],
     "title": "Eli Lilly to Acquire Calytrix Bio for Up to $1.5 Billion to Develop Targeted Blood Cancer Therapies",
     "deck": "The acquisition gives Lilly a preclinical antibody targeting mutant calreticulin in essential thrombocythemia and myelofibrosis; the upfront price remains undisclosed.",
     "category": "Deals & strategy",
@@ -250,6 +252,7 @@ articles.unshift(...[
   },
   {
     "id": "roche-gazyva-pmn-fda-2026",
+    "relatedArticles": ["roche-sefaxersen-igan-phase3", "enspryng-thyroid-eye"],
     "title": "Roche's Gazyva Becomes First FDA-Approved Treatment for Primary Membranous Nephropathy",
     "deck": "The FDA grants the first approval specifically for adults with this autoimmune kidney disease at risk of progression, after Gazyva shows higher proteinuria remission than tacrolimus.",
     "category": "Regulatory",
@@ -346,6 +349,7 @@ articles.unshift(...[
   },
   {
     "id": "seawolf-sanofi-dna-delivery-2026",
+    "relatedArticles": ["lilly-metis-delivery-collaboration", "sanofi-q3-2026-acquisition-strategy"],
     "title": "Seawolf Therapeutics Launches With $100 Million and Potential $1.2 Billion Sanofi Gene-Delivery Partnership",
     "deck": "The new biotech launches a lipid-nanoparticle DNA delivery platform with $100 million in financing and a milestone-based Sanofi collaboration for bleeding disorders.",
     "category": "Deals & strategy",

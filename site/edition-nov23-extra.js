@@ -118,7 +118,7 @@ companies.push(...[
     "reviewed": "2026-11-23"
   }
 ]);
-articles.unshift(...[
+articles.splice(2,0,...[
   {
     "id": "carsgen-ct1182-in-vivo-cart-2026",
     "title": "China's CARsgen Reports Early Clinical Responses With In Vivo CAR-T Therapy, Including Three Complete Remissions",
@@ -277,8 +277,8 @@ articles.unshift(...[
         ]
       ]
     ],
-    "date": "2026-11-23",
-    "editionDate": "2026-11-23",
+    "date": "2026-11-22",
+    "editionDate": "2026-11-22",
     "eventDate": "2026-11-22",
     "sourceCutoff": "2026-11-23",
     "reviewedDate": "2026-11-23",
@@ -460,8 +460,8 @@ articles.unshift(...[
         ]
       ]
     ],
-    "date": "2026-11-23",
-    "editionDate": "2026-11-23",
+    "date": "2026-11-22",
+    "editionDate": "2026-11-22",
     "eventDate": "2026-11-23",
     "sourceCutoff": "2026-11-23",
     "reviewedDate": "2026-11-23",

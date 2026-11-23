@@ -9,3 +9,7 @@ IQVIA November 23 Business Wire release and Permira's same-day statement confirm
 Added source-backed specialist profiles for CARsgen and IQVIA, including dated CT1182 clinical status and clearly labelled Quotient service capabilities (not a drug candidate). The 20-major-company selection remains unchanged; build validation now checks unique profile IDs and preservation of at least the existing 24 rather than forbidding legitimate additions.
 
 Expected counts at November 23 New York date: 106 articles, 17 current news, 89 archive, 26 companies, 44 transactions. Archive retains every prior story.
+
+## Publication-date correction
+
+At the editor’s explicit request, both supplied stories carry November 22 publication/edition dates and appear immediately after the two November 23 stories. Source, event, verification and transaction dates remain factual: IQVIA confirmation and completion sources are November 23, and the copy explicitly identifies that subsequent confirmation. Source cutoff remains November 23 to account for that update. Counts and preserved archive are unchanged.

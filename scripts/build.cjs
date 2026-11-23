@@ -15,5 +15,12 @@ for(const a of data.articles){for(const id of a.deals)assert(data.deals.some(d=>
 assert.equal(vm.runInContext("isArchived({date:'2026-10-17'},'2026-10-24')",ctx),false);assert.equal(vm.runInContext("isArchived({date:'2026-10-17'},'2026-10-25')",ctx),true);
 // Only this fixed build directory can be replaced.
 assert.equal(path.dirname(out),root);fs.rmSync(out,{recursive:true,force:true});fs.cpSync(src,out,{recursive:true});fs.writeFileSync(path.join(out,'.nojekyll'),'');
+// Content-based script URLs prevent cached edition data from replacing fresh prerendered HTML.
+const crypto=require('node:crypto');
+const versionedHtml=html.replace(/(<script src=")([^"]+)(")/g,(_,before,file,after)=>{
+  const version=crypto.createHash('sha256').update(fs.readFileSync(path.join(src,file))).digest('hex').slice(0,12);
+  return before+file+'?v='+version+after;
+});
+fs.writeFileSync(path.join(out,'index.html'),versionedHtml);
 console.log(`Production build passed: ${files.length} files, ${data.articles.length} articles, ${data.companies.length} companies, ${data.deals.length} deals. Output: _site/`);
 

@@ -354,12 +354,12 @@ articles.unshift(...[
       "merck-kelun-sac-tmt-trofuse015-2026"
     ],
     "image": {
-      "src": "images/nov20-revolution.webp",
-      "thumbnail": "images/nov20-revolution.webp",
-      "width": 1672,
-      "height": 941,
-      "alt": "Gloved hands using a pipette in a laboratory.",
-      "caption": "Illustrative laboratory image from the BioScope editorial collection; not Ekitna packaging or a photograph of the PEAK trial."
+      "src": "images/nov24-cogent-supplied.webp",
+      "thumbnail": "images/nov24-cogent-supplied.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Avmapki and Fakzynja bottles on a laboratory counter.",
+      "caption": "User-supplied illustrative cover showing Avmapki and Fakzynja; these are different medicines from Ekitna."
     },
     "paragraphs": [
       [

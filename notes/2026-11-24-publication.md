@@ -11,3 +11,7 @@ Cover 1 is the supplied Sanofi facade. Cover 2 supplied by editor shows Avmapki/
 Updated the existing Sanofi–Insmed tracker entry, preserving its ID and links rather than counting a second acquisition. New source-backed Insmed and Cogent specialist profiles, with dated products/programs. Sanofi company sources updated. No China-origin relation asserted for either article or the acquisition; existing China intelligence retained.
 
 Expected New York November24 counts:108 total articles,15 current news,93 archive,28 companies,44 transactions. Archive retains all articles; November16 stories naturally age out after seven days. Production scripts retain content-hash URLs from the prior cache fix.
+
+## Cover preference update
+
+The editor explicitly requested the second supplied photo for the Cogent story after publication. Replaced the neutral lab cover with that exact image, without changing bottle text or imagery. Alt text and caption accurately identify Avmapki/Fakzynja and distinguish them from Ekitna. Article text, date, order and relationships remain unchanged.

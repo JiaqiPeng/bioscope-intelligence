@@ -29,3 +29,6 @@ if(centessa){centessa.status='Completed in Q2 2026, as reported 5 August 2026';c
 for(const a of articles)if(a.id==='enspryng-thyroid-eye'&&!a.companies.includes('roche'))a.companies.push('roche');
 function companySearchText(c){return [c.name,c.full,c.hq,c.country,c.focus,...c.aliases,...(c.products||[]),...c.programs.flat(),...c.recentDeals.map(d=>d.name+' '+d.summary)].join(' ').toLowerCase();}
 
+
+// Dated company source updates from the November 24 edition.
+applyNov24CompanyUpdates();
